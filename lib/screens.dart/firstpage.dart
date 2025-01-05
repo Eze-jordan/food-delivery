@@ -44,14 +44,14 @@ class _FirstpageState extends State<Firstpage> {
           ),
           Padding(
             padding: const EdgeInsets.only(
-                top: 350), // Ajuste pour une meilleure visibilité
+                top: 450), // Ajuste pour une meilleure visibilité
             child: Align(
               alignment: Alignment.topCenter, // Centrer l'arc
               child: ClipPath(
                 clipper: OutwardArcClipper(),
                 child: Container(
                   height: MediaQuery.of(context).size.height *
-                      0.59, // Ajuster la hauteur
+                      0.55, // Ajuster la hauteur
                   width: double.infinity,
                   padding: const EdgeInsets.all(20.0),
                   decoration: const BoxDecoration(
